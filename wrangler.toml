@@ -1,0 +1,9 @@
+name = "1213"
+compatibility_date = "2024-05-02"
+
+[build]
+command = "npm run build"
+
+# Configuration for static assets deployment on Cloudflare Workers
+[assets]
+directory = "./frontend/out"
